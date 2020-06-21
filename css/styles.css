@@ -37,12 +37,12 @@ html {
   color: #1c376d;
   display: inline-block;
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
 }
 
 .me {
   height: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .text1 {
