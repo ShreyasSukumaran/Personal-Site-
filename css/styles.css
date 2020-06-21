@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "YourFontName2";
+  src: url("Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "YourFontName1";
+  src: url("Montserrat/Montserrat-Regular.ttf");
+}
+
+body,
+html {
+  margin: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(205, 215, 253);
+}
+
+.topContainer {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  min-height: max-content;
+}
+
+.imgContainer {
+  height: 500px;
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  left: 300px;
+  top: 100px;
+}
+
+.textContainer {
+  color: #1c376d;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+}
+
+.me {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.text1 {
+  font-family: YourFontName1;
+  font-size: 60px;
+  margin: 0px;
+}
+
+.text2 {
+  font-family: YourFontName2;
+  font-size: 25px;
+}
