@@ -110,7 +110,6 @@ html {
   font-weight: 500; 
   color: #1c376d;
   position: relative;
-  padding-top: 50px;
   margin-bottom: 25px;
 }
 
@@ -149,6 +148,7 @@ html {
   font-variation-settings: 'wght' 900;
   font-size: 22px;
   position: relative;
+  margin: 25px;
   padding-top: 10px;
   line-height: 1.5;
 }
@@ -199,7 +199,8 @@ html {
   color: #1c376d;
   margin-bottom: 0px;
   padding-bottom: 20px;
-  padding-top: 100px;
+  padding-top: 80px;
+  margin-top: 0px;
 }
 
 .dream {
@@ -216,7 +217,7 @@ html {
   font-variation-settings: 'wght' 900;
   font-size: 20px;
   position: relative;
-  padding-top: 15px;
+  padding-top: 20px;
   line-height: 1.5;
 }
 
