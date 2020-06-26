@@ -7,7 +7,7 @@
 
 body,
 html {
-  margin: 0rem; 
+  margin: 0px; 
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -20,49 +20,45 @@ html {
   position: relative;
   width: 100%;
   min-height: max-content;
-  padding-bottom: 7.5rem;
+  padding-bottom: 120px;
   /*background-color: rgb(221, 227, 255);*/
-  background-color:  #020c20;
+  background-color:  #05132e;
 
-  padding-top: 12.50rem;
+  padding-top: 200px;
 }
 
-/*.imgContainer {
-  height: 31.25rem;
+.imgContainer {
+  height: 500px;
   display: inline-block;
   position: relative;
-  margin: 0rem;
-  left: 18.4375rem;
-  top: 6.25rem;
-}*/
+  margin: 0px;
+  left: 295px;
+  top: 100px;
+}
 
 .textContainer {
-  /*color: rgb(209, 216, 250);*/
-  color: #B0B4BD;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  color: rgb(209, 216, 250);
   display: inline-block;
   position: relative;
-  bottom: 3.0rem;
+  bottom: 60px;
 }
 
 .me {
-  height: 12.5rem;
+  height: 200px;
 }
 
 .text1 {
   font-family: 'Montserrat', sans-serif;
-  font-variation-settings: 'wght' 500;
-  font-size: 3.75rem;
-  margin: 0.9375rem;
+  font-variation-settings: 'wght' 300;
+  font-size: 60px;
+  margin: 15px;
 }
 
 .text2 {
   font-family: 'Montserrat', sans-serif;
-  font-variation-settings: 'wght' 300;
-  font-size: 1.875rem;
-  margin-top: 0.8125rem;
+  font-variation-settings: 'wght' 400;
+  font-size: 30px;
+  margin-top: 13px;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -73,18 +69,18 @@ html {
   position: relative;
   width: 100%;
   min-height: max-content;
-  padding-bottom: 7.50rem;
+  padding-bottom: 120px;
 }
 
 .profile {
-  padding-bottom: 1rem;
-  padding-top: 3rem;
+  padding-bottom: 15px;
+  padding-top: 50px;
 }
 
 .me2 {
-  height: 12.50rem;
-  margin: 0rem;
-  padding-top: 6.25rem;
+  height: 200px;
+  margin: 0px;
+  padding-top: 100px;
 }
 
 .hi {
@@ -92,19 +88,20 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-variation-settings: 'wght' 500;
   font-weight: 500;
-  font-size: 2.1875rem;
-  margin-bottom: 0.3125rem;
-  margin-top: 1.875rem;
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  padding-top: 50px;
   position: relative;
-  left: 0.4375rem;
+  left: 7px;
 }
 
 .bio {
   font-family: 'Karla', sans-serif;
   font-variation-settings: 'wght' 900;
-  font-size: 1.375rem;
+  font-size: 22px;
   position: relative;
-  left: 0.4375rem;
+  left: 7px;
   line-height: 1.5;
 }
 
@@ -112,73 +109,73 @@ html {
 
 .skillText {
   font-family: 'Montserrat', sans-serif; 
-  font-size: 2.1875rem; 
+  font-size: 35px; 
   font-weight: 500; 
   color: #1c376d;
   position: relative;
-  margin-bottom: 1.5625rem;
-  padding-top: 1rem;
+  margin-bottom: 25px;
+  padding-top: 30px;
 }
 
 .skillRow1 {
   position: relative;
-  top: 1.25rem;
+  top: 20px;
 }
 
 .skillRow2 {
   position: relative;
-  top: 3.75rem;
+  top: 60px;
 }
 
 .html5 {
-  height: 6.25rem;
+  height: 100px;
   position: relative;
-  right: 6.25rem;
-  top: 0.625rem;
+  right: 100px;
+  top: 10px;
 }
 
 .css{
-  height: 6.25rem;
+  height: 100px;
   position: relative;
-  top: 0.625rem;
+  top: 10px;
 }
 
 .js {
-  height: 6.25rem;
+  height: 100px;
   position: relative;
-  left: 6.25rem;;
-  top: 0.625rem;
+  left: 100px;
+  top: 10px;
 }
 
 .skillDescription {
   font-family: 'Karla', sans-serif;
   font-variation-settings: 'wght' 900;
-  font-size: 1.375rem;
+  font-size: 22px;
   position: relative;
-  margin: 1.5625rem;
-  padding-top: 0.625rem;
+  margin: 25px;
+  padding-top: 10px;
   line-height: 1.5;
 }
 
 .sketchbook {
-  height: 6.25rem;
+  height: 100px;
   position: relative;
-  top: 0.625rem;
+  top: 10px;
 }
 
 .affinityDesigner {
-  height: 6.6875rem;
+  height: 107px;
   position: relative;
-  left: 6.25rem;
-  top: 0.3125rem;
-  top: 0.625rem;
+  left: 100px;
+  top: 5px;
+  top: 10px;
 }
 
 .adobeIllustrator {
-  height: 6.25rem;
+  height: 100px;
   position: relative;
-  right: 6.25rem;
-  top: 0.625rem;
+  right: 100px;
+  top: 10px;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -188,49 +185,49 @@ html {
   display: inline-block;
   position: relative;
   width: 100%;
-  background-color: #020c20;
-  height: 12.50rem;
+  background-color: #05132e;
+  height: 200px;
 }
 
 .contactMe {
   position: relative;
-  top: 1.5625rem;
+  top: 25px;
 }
 
 
 
 .getInTouch {
   font-family: 'Montserrat', sans-serif; 
-  font-size: 2.5rem; 
+  font-size: 40px; 
   font-weight: 500; 
   color: #1c376d;
-  margin-bottom: 0rem;
-  padding-bottom: 1.25rem;
-  padding-top: 6.25rem;
-  margin-top: 0rem;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  margin-top: 0px;
 }
 
 .dream {
   font-family: 'Karla', sans-serif;
-  font-size: 1.6875rem; 
+  font-size: 27px; 
   font-weight: 500;
   color: #1c376d;
-  margin-top: 0rrem;
-  margin-bottom: 0rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .project {
   font-family: 'Karla', sans-serif;
   font-variation-settings: 'wght' 900;
-  font-size: 1.25rem;
+  font-size: 20px;
   position: relative;
-  padding-top: 0.625rem;
+  padding-top: 10px;
   line-height: 1.5;
 }
 
 .contactImg {
-  height: 3.125rem;
-  padding-top: 0.625rem;
+  height: 50px;
+  padding-top: 10px;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -238,38 +235,38 @@ html {
   text-decoration: none;
   color: rgb(220, 219, 255);
   font-family: 'Karla', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   position: relative;
   top: 50px;
-  right: 12.50rem;
+  right: 200px;
 }
 
 .footer-link-2 {
   text-decoration: none;
   color: rgb(220, 219, 255);
   font-family: 'Karla', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   position: relative;
-  top: 3.125rem;
-  left: 18.125rem;
+  top: 50px;
+  left: 290px;
 }
 
 .footer-link-3 {
   text-decoration: none;
   color: rgb(220, 219, 255);
   font-family: 'Karla', sans-serif;
-  font-size: 1.25rem;
+  font-size: 20px;
   position: relative;
-  top: 3.125rem;
-  right: 4.375rem;
+  top: 50px;
+  right: 70px;
 }
 
 .rights {
   text-decoration: none;
   color: rgb(220, 219, 255);
   font-family: 'Karla', sans-serif;
-  font-variation-settings: 'wght' 400;
-  font-size: 0.95rem;
+  font-variation-settings: 'wght' 400px;
+  font-size: 15px;
   position: relative;
-  top: 5.625rem;
+  top: 90px;
 }
