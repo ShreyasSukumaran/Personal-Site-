@@ -1,13 +1,11 @@
-
 @font-face {
   font-family: "YourFontName";
   src: url("FuturaPTBook.otf");
 }
 
-
 body,
 html {
-  margin: 0px; 
+  margin: 0px;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -22,19 +20,19 @@ html {
   min-height: max-content;
   padding-bottom: 120px;
   /*background-color: rgb(221, 227, 255);*/
-  background-color:  #05132e;
+  background-color: #020c20;
 
   padding-top: 200px;
 }
 
-.imgContainer {
+/* .imgContainer {
   height: 500px;
   display: inline-block;
   position: relative;
   margin: 0px;
   left: 295px;
   top: 100px;
-}
+} */
 
 .textContainer {
   color: rgb(209, 216, 250);
@@ -48,15 +46,15 @@ html {
 }
 
 .text1 {
-  font-family: 'Montserrat', sans-serif;
-  font-variation-settings: 'wght' 300;
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 300;
   font-size: 60px;
   margin: 15px;
 }
 
 .text2 {
-  font-family: 'Montserrat', sans-serif;
-  font-variation-settings: 'wght' 400;
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 400;
   font-size: 30px;
   margin-top: 13px;
 }
@@ -84,57 +82,52 @@ html {
 }
 
 .hi {
-  color: #1c376d;;
-  font-family: 'Montserrat', sans-serif;
-  font-variation-settings: 'wght' 500;
+  color: #020c20;
+  font-family: "Montserrat", sans-serif;
+  font-variation-settings: "wght" 500;
   font-weight: 500;
-  font-size: 35px;
-  margin-bottom: 5px;
-  margin-top: 30px;
-  padding-top: 50px;
+  font-size: 40px;
+  margin-bottom: 0px;
+  padding: 0px;
   position: relative;
   left: 7px;
 }
 
 .bio {
-  font-family: 'Karla', sans-serif;
-  font-variation-settings: 'wght' 900;
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
   font-size: 22px;
   position: relative;
   left: 7px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
 
 .skillText {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 35px; 
-  font-weight: 500; 
-  color: #1c376d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #020c20;
   position: relative;
-  margin-bottom: 25px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .skillRow1 {
   position: relative;
-  top: 20px;
-}
-
-.skillRow2 {
-  position: relative;
-  top: 60px;
+  width: 50%;
+  margin: 80px auto 80px auto;
 }
 
 .html5 {
-  height: 100px;
-  position: relative;
+  /*height: 100px;
   right: 100px;
-  top: 10px;
+  top: 10px;*/
+  height: 120px;
+  float: left;
 }
 
-.css{
+/*.css{
   height: 100px;
   position: relative;
   top: 10px;
@@ -145,25 +138,39 @@ html {
   position: relative;
   left: 100px;
   top: 10px;
-}
+}*/
 
-.skillDescription {
-  font-family: 'Karla', sans-serif;
-  font-variation-settings: 'wght' 900;
+.skillDescription1 {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
   font-size: 22px;
   position: relative;
-  margin: 25px;
+  /* margin: 25px;
   padding-top: 10px;
-  line-height: 1.5;
+  line-height: 1.5; */
+
+  line-height: 2;
+  text-align: left;
+  left: 40px;
+  bottom: 4px;
+  margin: 0px;
+}
+
+.skillRow2 {
+  position: relative;
+  width: 50%;
+  margin: 60px auto 80px auto;
+  padding-left: 90px;
 }
 
 .sketchbook {
-  height: 100px;
+  height: 120px;
   position: relative;
-  top: 10px;
+  float: right;
+  right: 20px;
 }
 
-.affinityDesigner {
+/* .affinityDesigner {
   height: 107px;
   position: relative;
   left: 100px;
@@ -176,49 +183,57 @@ html {
   position: relative;
   right: 100px;
   top: 10px;
+} */
+
+.skillDescription2 {
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
+  font-size: 22px;
+  position: relative;
+  right: 40px;
+  /* margin: 25px;
+  padding-top: 10px;
+  line-height: 1.5; */
+
+  text-align: left;
+  line-height: 2;
+  bottom: 7px;
 }
+
+
 
 /*------------------------------------------------------------------------------------------------------------*/
-
-.bottomContainer {
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  background-color: #05132e;
-  height: 200px;
-}
 
 .contactMe {
   position: relative;
   top: 25px;
+  width: 50%;
+  margin: 0px auto 0px auto;
 }
 
-
-
 .getInTouch {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 40px; 
-  font-weight: 500; 
-  color: #1c376d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #020c20;
   margin-bottom: 0px;
   padding-bottom: 20px;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-top: 0px;
 }
 
 .dream {
-  font-family: 'Karla', sans-serif;
-  font-size: 27px; 
+  font-family: "Karla", sans-serif;
+  font-size: 27px;
   font-weight: 500;
-  color: #1c376d;
+  color: #020c20;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .project {
-  font-family: 'Karla', sans-serif;
-  font-variation-settings: 'wght' 900;
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 900;
   font-size: 20px;
   position: relative;
   padding-top: 10px;
@@ -231,42 +246,59 @@ html {
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
+
+.bottomContainer {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-color: #020c20;
+  height: 220px;
+}
+
 .footer-link-1 {
   text-decoration: none;
   color: rgb(220, 219, 255);
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 20px;
   position: relative;
-  top: 50px;
-  right: 200px;
+  top: 70px;
+  right: 300px;
 }
 
 .footer-link-2 {
   text-decoration: none;
   color: rgb(220, 219, 255);
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 20px;
   position: relative;
-  top: 50px;
-  left: 290px;
+  top: 70px;
+  left: 390px;
 }
 
 .footer-link-3 {
   text-decoration: none;
   color: rgb(220, 219, 255);
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 20px;
   position: relative;
-  top: 50px;
+  top: 70px;
   right: 70px;
 }
 
 .rights {
   text-decoration: none;
   color: rgb(220, 219, 255);
-  font-family: 'Karla', sans-serif;
-  font-variation-settings: 'wght' 400px;
+  font-family: "Karla", sans-serif;
+  font-variation-settings: "wght" 400px;
   font-size: 15px;
   position: relative;
-  top: 90px;
+  top: 110px;
+}
+
+hr {
+  width: 5%;
+  border-top: 1px #020c20;
+  border-style: none;
+  border-top-style: solid;
 }
