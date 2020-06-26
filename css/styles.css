@@ -22,7 +22,9 @@ html {
   min-height: max-content;
   padding-bottom: 120px;
   /*background-color: rgb(221, 227, 255);*/
-  background-color:  rgb(220, 219, 255);
+  background-color:  #05132e;
+
+  padding-top: 200px;
 }
 
 .imgContainer {
@@ -35,7 +37,7 @@ html {
 }
 
 .textContainer {
-  color: #1c376d;
+  color: rgb(209, 216, 250);
   display: inline-block;
   position: relative;
   bottom: 60px;
@@ -89,6 +91,7 @@ html {
   font-size: 35px;
   margin-bottom: 5px;
   margin-top: 30px;
+  padding-top: 50px;
   position: relative;
   left: 7px;
 }
@@ -111,6 +114,7 @@ html {
   color: #1c376d;
   position: relative;
   margin-bottom: 25px;
+  padding-top: 30px;
 }
 
 .skillRow1 {
@@ -199,7 +203,7 @@ html {
   color: #1c376d;
   margin-bottom: 0px;
   padding-bottom: 20px;
-  padding-top: 80px;
+  padding-top: 100px;
   margin-top: 0px;
 }
 
@@ -217,7 +221,7 @@ html {
   font-variation-settings: 'wght' 900;
   font-size: 20px;
   position: relative;
-  padding-top: 20px;
+  padding-top: 10px;
   line-height: 1.5;
 }
 
